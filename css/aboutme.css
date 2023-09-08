@@ -1,15 +1,4 @@
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth; }
-  @media only screen and (max-width: 75em) {
-    html {
-      font-size: 56.25%; } }
-  @media only screen and (max-width: 56.25em) {
-    html {
-      font-size: 50%; } }
-  @media only screen and (max-width: 37.5em) {
-    html {
-      font-size: 30.25%; } }
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
@@ -47,9 +36,15 @@ body {
 	margin: 0;
 	padding: 1em;
 }
+/* Add this CSS code to make images hoverable */
 .left img {
-	border-radius: 50%;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
 }
+.left img:hover {
+  transform: scale(1.1); /* You can adjust the scale factor as needed */
+}
+
 .content {
 	margin-left: 190px;
 	border-left: 1px solid #d4d4d4;
