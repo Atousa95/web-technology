@@ -6,39 +6,18 @@
 1800px+:     Big desktop
 */
 /*
-$breakpoint argument choices:
--phone
--tab-port
--tab-land
--big-desktop
-
-1em = 16px
-
-ORDER: Base + typography > general layout + grid > page layout > components
-*/
-/* Default styles for all screen sizes */
-
-/* Media query for screens with a maximum width of 600px (mobile) */
-@media screen and (max-width: 600px) {
-  /* CSS styles for mobile screens */
-}
-
-/* Media query for screens with a maximum width of 900px (tablet portrait) */
-@media screen and (max-width: 900px) {
-  /* CSS styles for tablet portrait screens */
-}
-
-/* Media query for screens with a maximum width of 1200px (tablet landscape) */
-@media screen and (max-width: 1200px) {
-  /* CSS styles for tablet landscape screens */
-}
-
-/* Media query for screens with a minimum width of 1800px (big desktop) */
-@media screen and (min-width: 1800px) {
-  /* CSS styles for big desktop screens */
-}
-
-
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 30.25%; } }
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 body {
