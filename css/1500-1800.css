@@ -9,7 +9,7 @@ body {
 }
 
 header {
-background-image: url(/images/old1.jpg) ;
+background-image: url(../images/old1.jpg) ;
 background-size: cover; /*size according to main img*/
 background-repeat: no-repeat;
 background-position: center top; /*display the image from a position slightly higher than center*/
