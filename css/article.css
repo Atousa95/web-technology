@@ -29,16 +29,3 @@
 	color: #fff;
   }
   
-  .social-icons {
-	margin-top: 10px;
-  }
-  
-  .social-icons a {
-	text-decoration: none;
-	margin: 0 10px;
-  }
-  
-  .social-icons img {
-	width: 30px; /* Adjust the size of the social media icons as needed */
-	height: 30px; /* Adjust the size of the social media icons as needed */
-  }
