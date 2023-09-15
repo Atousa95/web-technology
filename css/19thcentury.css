@@ -27,43 +27,11 @@ body {
 	color: #000;
 }
 
-.sub-menu {
-	list-style: none;
-	display: none;
-	position: absolute;
-	top: 100%;
-	background-color: #eeeeeed6;
-	border: 1px solid #ccc;
-}
 
-.sub-menu ul {
-	list-style: none;
-	padding: 0;
-}
-
-.sub-menu > ul {
-	display: flex;
-	background-color: #ef7b00;
-}
-.sub-menu li {
-	position: relative;
-	text-align: center;
-}
 .nav-items > li:hover .sub-menu {
 	display: block;
 }
 
-.sub-menu a {
-	display: block;
-	padding: 10px 20px;
-	color: #060202;
-	text-decoration: none;
-	transition: background-color 0.3s;
-}
-
-.sub-menu a:hover {
-	background-color: #ef7b00;
-}
 .nav-items > li {
 	display: inline-block;
 	margin-right: 15px;
@@ -71,36 +39,6 @@ body {
 	list-style: square;
 }
 
-/*animation for background submenu*/
-.sub-menu li::before {
-	content: '';
-	position: absolute;
-	bottom: -10px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 10px 10px 10px;
-	border-color: transparent transparent #ef7b00 transparent;
-	opacity: 0;
-	transition: opacity 0.3s;
-}
-
-/*style for submenu*/
-.sub-menu ul.sub-menu li {
-	width: 100%;
-	text-align: center;
-}
-
-.sub-menu ul.sub-menu a {
-	padding: 10px 0;
-	transition: background-color 0.3s;
-}
-
-.sub-menu ul.sub-menu a:hover {
-	background-color: #2b7b9e;
-}
 
 .nav-items {
 	display: flex;
@@ -116,13 +54,6 @@ body {
 	text-decoration: none;
 }
 
-.sub-menu {
-	position: absolute;
-	top: 100%;
-	background-color: #0a01011a;
-	border: 1px solid #eeeeee1a;
-	text-decoration: none;
-}
 
 .nav-items > li:hover .sub-menu {
 	display: block;
